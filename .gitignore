@@ -1,0 +1,28 @@
+# Latex aux files
+*.aux
+*.bbl
+*.bcf
+*.blg
+*.fdb_latexmk
+*.fls
+*.log
+*.out
+*.run.xml
+*.synctex.gz
+*.toc
+*.lof
+*.lot
+*.nav
+*.snm
+
+# Latexmk
+*.latexmk
+
+# Temporary files
+*.tmp
+*.bak
+
+# Keep only .tex and .pdf
+!*.tex
+!*.pdf
+z
