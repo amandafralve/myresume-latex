@@ -1,0 +1,133 @@
+% GitHub Repo and Documentation: https://github.com/celiobjunior/resume-template
+% Copyright © 2025 Celio B Junior. All rights reserved.
+% 
+% Licensed under the Apache License, Version 2.0 (the "License");
+% you may not use this file except in compliance with the License.
+% You may obtain a copy of the License at
+%
+%     http://www.apache.org/licenses/LICENSE-2.0
+%
+% This template follows best practices from README.md
+
+% LaTeX document start: defines document type and format
+% a4paper = A4 size, 10pt = base font size
+\documentclass[a4paper,10pt]{article}
+
+% --- PACKAGES ---
+\usepackage{mathptmx}      % Times-like text
+\usepackage{helvet}        % Helvetica for sans-serif
+\usepackage{courier}       % Courier for monospace
+\usepackage[english]{babel}
+\usepackage{geometry}
+\usepackage{parskip}
+\usepackage{hyperref}
+\usepackage{titlesec}
+% For line breaks in long URLs (do not use \href{}, use \url{} for long URLs)
+% \usepackage{xurl}
+
+% --- DOCUMENT CONFIGURATION ---
+% Defines page margins to maximize content space
+\geometry{top=1.0cm, bottom=1.0cm, left=1.0cm, right=1.0cm}
+
+% Removes page numbers and headers for a clean resume look
+\pagestyle{empty}
+
+% PDF metadata - customize with your information
+\hypersetup{
+    pdftitle={Amanda Vithória Alves Freitas},
+    pdfauthor={Amanda Vithória Alves Freitas},
+    colorlinks=true,
+    linkcolor=black,
+    urlcolor=black,
+    citecolor=black,
+    bookmarksdepth=1 
+}
+
+% Disables section numbering
+\setcounter{secnumdepth}{0}
+
+% Formats section headers and adds a rule below
+\titleformat{\section}
+{\Large\bfseries}
+{}
+{0em}
+{}
+[\titlerule\vspace{0.5ex}]
+
+% --- DOCUMENT START ---
+\begin{document}
+
+% --- HEADER ---
+\begin{center}
+    {\LARGE \textbf{Amanda Vithória Alves Freitas}}\\[0.1cm]
+    Pariquera-Açu, São Paulo \hspace{1mm} {\textbullet} \hspace{1mm} +55 13 99727-6945
+    \\[0.2cm] 
+    \href{mailto:amanda.fralve@gmail.com}{amanda.fralve@gmail.com}
+    \hspace{1mm}{\textbullet}\hspace{1mm}
+    \href{https://www.linkedin.com/in/amanda-fralve}{linkedin.com/in/amanda-fralve}
+    \hspace{1mm}{\textbullet}\hspace{1mm}
+    \href{https://www.behance.net/amandafralve}{behance.net/amandafralve}
+\end{center}
+
+
+% --- SEÇÕES ---
+
+\section{OBJETIVO}
+Sou estudante de Desenvolvimento de Software Multiplataforma na Fatec Registro-SP e busco uma oportunidade como Auxiliar Administrativo, onde possa aplicar minha experiência com rotinas administrativas, atendimento ao público e organização de documentos, contribuindo para a melhoria dos processos internos da empresa.
+
+\section{FORMAÇÃO ACADÊMICA}
+
+\subsection*{\texorpdfstring{
+        \textbf{Faculdade de Tecnologia – Fatec Registro-SP}
+    }{
+        Fatec Registro
+    }}
+\textit{Curso Superior em Desenvolvimento de Software Multiplataforma \hfill Fev 2024 – Dez 2026}
+
+\subsection*{\texorpdfstring{
+        \textbf{Instituto Federal de Educação, Ciência e Tecnologia de São Paulo – IFSP}
+    }{
+        IFSP
+    }}
+\textit{Técnico em Mecatrônica Integrado ao Ensino Médio \hfill Fev 2019 – Dez 2021}
+
+\section{HABILIDADES TÉCNICAS}
+\begin{itemize}
+    \item Pacote Office: Excel Básico, Word, PowerPoint
+    \item Organização de documentos e arquivos
+    \item Atendimento ao público
+    \item Facilidade em trabalho em equipe e organização
+\end{itemize}
+
+\section{EXPERIÊNCIA}
+
+\subsection*{\texorpdfstring{
+        \textbf{Centro de Reabilitação Lucy Montoro} \hfill Pariquera-Açu, SP
+    }{
+        Centro de Reabilitação Lucy Montoro
+    }}
+\textit{Jovem Aprendiz – Auxiliar Administrativo \hfill Abr 2022 – Jul 2023 (1 ano e 4 meses)}
+\begin{itemize}
+    \item Atendimento ao público na recepção, presencial e por telefone.
+    \item Otimização de planilhas no Excel, auxiliando na rotina administrativa da equipe.
+    \item Atualização de documentos no Word e suporte em rotinas administrativas do escritório.
+\end{itemize}
+
+\subsection*{\texorpdfstring{
+        \textbf{Sabesp – Tel Centro de Contatos} \hfill Pariquera-Açu, SP
+    }{
+        Sabesp
+    }}
+\textit{Analista de Atendimento Comercial II \hfill Set 2025 – Nov 2025 (1–2 meses)}
+\begin{itemize}
+    \item Atendimento ao público na recepção presencial.
+    \item Suporte na orientação correta ao cliente.
+    \item Atualização de documentos no Word e apoio em rotinas administrativas do escritório.
+\end{itemize}
+
+\section{IDIOMA}
+\begin{itemize}
+    \item Inglês – Nível B2 Intermediário/Avançado (\href{https://drive.google.com/file/d/1wQA662aiYXgXoeTkIuQ1UzJLbKcqJmrU/view}{TOEIC})
+\end{itemize}
+
+\end{document}

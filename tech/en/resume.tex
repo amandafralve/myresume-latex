@@ -9,26 +9,27 @@
 %
 % This template follows best practices from README.md
 
-% Start of LaTeX document: defines document type and format
-% a4paper = A4 page size, 10pt = base font size
+% LaTeX document start: defines document type and format
+% a4paper = A4 size, 10pt = base font size
 \documentclass[a4paper,10pt]{article}
 
 % --- PACKAGES ---
-\usepackage[utf8]{inputenc}
-\usepackage[T1]{fontenc}
+\usepackage{mathptmx}      % Times-like text
+\usepackage{helvet}        % Helvetica for sans-serif
+\usepackage{courier}       % Courier for monospace
 \usepackage[english]{babel}
 \usepackage{geometry}
 \usepackage{parskip}
 \usepackage{hyperref}
 \usepackage{titlesec}
-% For better line breaks in long URLs (don't use \href{}, use \url{} for long URLs)
+% For line breaks in long URLs (do not use \href{}, use \url{} for long URLs)
 % \usepackage{xurl}
 
-% --- DOCUMENT SETUP ---
-% Set page margins to maximize content space
+% --- DOCUMENT CONFIGURATION ---
+% Defines page margins to maximize content space
 \geometry{top=1.0cm, bottom=1.0cm, left=1.0cm, right=1.0cm}
 
-% Remove page numbers and headers for clean resume look
+% Removes page numbers and headers for a clean resume look
 \pagestyle{empty}
 
 % PDF metadata - customize with your information
@@ -42,10 +43,10 @@
     bookmarksdepth=1 
 }
 
-% Disable section numbering for cleaner appearance
+% Disables section numbering
 \setcounter{secnumdepth}{0}
 
-% Format section headers with bold text and underline
+% Formats section headers and adds a rule below
 \titleformat{\section}
 {\Large\bfseries}
 {}
@@ -53,105 +54,72 @@
 {}
 [\titlerule\vspace{0.5ex}]
 
-% --- BEGIN DOCUMENT ---
+% --- DOCUMENT START ---
 \begin{document}
 
 % --- HEADER ---
-% Replace with your personal information
 \begin{center}
-    {\LARGE \textbf{Amanda Vithória Alves Freitas}} 
-    \\ [0.1cm]
-    Your City, Your Country 
-    {\textbullet}
-    Email: \href{mailto:amanda.fralve@gmail.com}{amanda.fralve@gmail.com} 
-    {\textbullet}
-    \href{https://www.linkedin.com/in/yourprofile}{linkedin.com/in/yourprofile} 
-    {\textbullet}
-    \href{https://github.com/yourusername}{github.com/yourusername}
+    {\LARGE \textbf{Amanda Vithória Alves Freitas}}\\[0.1cm]
+    Pariquera-Açu, São Paulo \hspace{1mm} {\textbullet} \hspace{1mm} +55 13 99727-6945
+    \\[0.2cm] 
+    \href{mailto:amanda.fralve@gmail.com}{amanda.fralve@gmail.com}
+    \hspace{1mm}{\textbullet}\hspace{1mm}
+    \href{https://www.linkedin.com/in/amanda-fralve}{linkedin.com/in/amanda-fralve}
+    \hspace{1mm}{\textbullet}\hspace{1mm}
+    \href{https://github.com/amandafralve}{github.com/amandafralve}
+    \hspace{1mm}{\textbullet}\hspace{1mm}
+    \href{https://www.behance.net/amandafralve}{behance.net/amandafralve}
 \end{center}
 
 % --- SECTIONS ---
 
-\section{Leadership Activities} 
-    % Include volunteer work, clubs, organizations, or leadership roles
+\section{OBJECTIVE}
+    I am seeking an opportunity in the technology field, with a strong interest in specializing in Front-End or Full Stack development. I have an affinity for interface development, UX/UI, and design, aiming to create functional, intuitive, and well-structured solutions.
+\section{EDUCATION}
     \subsection*{\texorpdfstring{
-            \textbf{Organization Name} \hfill Location (e.g. Remote or State, Country)
+            \textbf{Fatec – Faculty of Technology} \hfill Registro, SP (On-site)
         }{
-            Organization Name (Leadership) -- Location
+            Fatec Registro (Education) -- Location
         }}
-    \textit{Your Role/Position \hfill Start Date - End Date (e.g. Jan 2024 - Present)}
-        \begin{itemize}
-            % Use action verbs from the README - quantify your impact when possible
-            \item Describe a significant leadership accomplishment with specific metrics.
-            \item Highlight how you managed teams, led initiatives, or drove results.
-            \item Show impact on the organization or community you served.
-        \end{itemize}
-
-% ------
-
-\section{Experience}
-    % List work experience in reverse chronological order (most recent first)
-    \subsection*{\texorpdfstring{
-            \textbf{Company/Organization Name} \hfill Location (e.g. Remote or State, Country)
-        }{
-            Company Name -- Location
-        }}
-    \textit{Job Title (e.g. Software Engineer, Data Analyst) \hfill Start Date - End Date}
-        \begin{itemize} 
-            % Focus on achievements, not just duties - use STAR method (Situation, Task, Action, Result)
-            \item Accomplished [specific result] by [action taken], leading to [quantified impact].
-            \item Developed/Built/Created [what you made] using [technologies/methods], resulting in [benefit].
-            \item Collaborated with [team size/type] to [achieve what], improving [metric] by [percentage/amount].
-        \end{itemize}
+    \textit{Multiplatform Software Development (Technologist)\hfill Feb 2024 – Dec 2026}
 
     \subsection*{\texorpdfstring{
-        	\textbf{Company/Organization Name} \hfill Location (e.g. Remote or State, Country)
+            \textbf{IFSP – Federal Institute of São Paulo} \hfill Registro, SP (On-site)
         }{
-            Another Company/Organization -- Location
+            IFSP Registro (Education) -- Location
         }}
-    \textit{Job Title (e.g. Junior Developer, Research Assistant) \hfill Start Date -- End Date}
-        \begin{itemize}
-            \item Use active verbs from the action verbs table in README.md
-            \item Quantify your achievements whenever possible (numbers, percentages, timeframes)
-            \item Show progression and increasing responsibility across roles
-        \end{itemize}
-        
-    \subsection*{\texorpdfstring{
-        	\textbf{University/Research Institution} \hfill Location (e.g. Remote or State, Country)
-        }{
-            University/Research Institution -- Location
-        }}
-    \textit{Research/Academic Position (e.g. Undergraduate Researcher, Teaching Assistant) \hfill Start Date - End Date}
-        \begin{itemize}
-            \item Include research, academic work, or projects that demonstrate technical skills
-            \item Highlight any publications, presentations, or significant findings
-        \end{itemize}
+    \textit{Technical Degree in Mechatronics integrated with High School\hfill Feb 2019 – Dec 2021}
 
-% ------
-
-\section{Skills}
-    % Keep this section concise and relevant to your target jobs
+\section{SKILLS}
     \begin{itemize}
-        \item \textbf{Technical:} List your programming languages, frameworks, tools, and methodologies
-        \item \textbf{Language:} Your Native Language (Native), Second Language (Proficiency Level), Third Language (Proficiency Level)
+        \item \textbf{Programming Languages:} JavaScript, TypeScript, HTML, CSS
+        \item \textbf{Front-end:} React.js, React Native, Next.js, Bootstrap, Tailwind CSS
+        \item \textbf{Back-end:} Node.js, Express.js
+        \item \textbf{Databases:} MongoDB, SQL, PostgreSQL, MySQL
+        \item \textbf{Tools and Platforms:} Git, GitHub, Figma
+        \item \textbf{Languages:} Portuguese (Native), English (\href{https://drive.google.com/file/d/1wQA662aiYXgXoeTkIuQ1UzJLbKcqJmrU/view}{TOEIC – B2})
     \end{itemize}
 
-% ------
-
-% !!!!!!!!!!!!!!!!!!!!!!
-% Place this section directly below the header and above the 
-% Experience section if you’re applying for your first job 
-% or an internship; otherwise, leave it at the end of your 
-% resume.
-% !!!!!!!!!!!!!!!!!!!!!!
-
-\section{Education}
-    % Use this format for each degree - most recent first
+\section{EXPERIENCE (Projects)}
+    % List your work or academic experiences, most recent first
     \subsection*{\texorpdfstring{
-            \textbf{Your University Name} \hfill Location (e.g. Remote or State, Country)
+            \textbf{Movie Gallery – Node.js, Express.js, Sequelize} \hfill \href{https://github.com/amandafralve/galeria-filmes-nodejs}{galeria-filmes-nodejs}
         }{
-            Your University Name (Education) -- Location
-        }}
-    \textit{Your Degree Title (e.g. B.Sc. Computer Science) \hfill Start Date - End Date (e.g. Jan 2024 - Dec 2024)}
+            Project -- Location
+        }}  
+        \begin{itemize} 
+            \item Movie gallery inspired by the MUBI streaming platform, where users can add films to the catalog including poster image, title, director, country, and release year.
+        \end{itemize}
+    
+    \subsection*{\texorpdfstring{
+            \textbf{NitrusLeaf – Vitalliz | React.js, Node.js, Express.js}
+        }{
+            Project -- Location
+        }}  
+        \begin{itemize} 
+            \item Team-based application project that uses Artificial Intelligence to identify copper and manganese deficiencies in tangerine leaves. I contributed to the team branding, application logo, and mobile app screen prototyping using Figma.
+            \item Presented at Casa Oracle in São Paulo, where it achieved 2nd place among three projects in 2024.
+        \end{itemize}
+
 
 \end{document}
