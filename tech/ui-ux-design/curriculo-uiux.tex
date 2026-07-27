@@ -1,0 +1,168 @@
+% GitHub Repo and Documentation: https://github.com/celiobjunior/resume-template
+% Copyright © 2025 Celio B Junior. All rights reserved.
+% 
+% Licensed under the Apache License, Version 2.0 (the "License");
+% you may not use this file except in compliance with the License.
+% You may obtain a copy of the License at
+%
+%     http://www.apache.org/licenses/LICENSE-2.0
+%
+% This template follows best practices from README.md
+
+% Início do documento LaTeX: define tipo e formato do documento
+% a4paper = tamanho A4, 10pt = tamanho base da fonte
+\documentclass[a4paper,10pt]{article}
+
+% --- PACOTES ---
+\usepackage{mathptmx}      % Texto parecido com Times
+\usepackage{helvet}        % Helvetica para sans-serif
+\usepackage{courier}       % Courier para monospace
+\usepackage[portuguese]{babel}
+\usepackage{geometry}
+\usepackage{parskip}
+\usepackage{hyperref}
+\usepackage{titlesec}
+% Para quebras de linha em URLs longas (não use \href{}, use \url{} para URLs longas)
+% \usepackage{xurl}
+
+% --- CONFIGURAÇÃO DO DOCUMENTO ---
+% Define margens da página para maximizar espaço de conteúdo
+\geometry{top=1.0cm, bottom=1.0cm, left=1.0cm, right=1.0cm}
+
+% Remove números de página e cabeçalhos para visual limpo do currículo
+\pagestyle{empty}
+
+% Metadados do PDF - personalize com suas informações
+\hypersetup{
+    pdftitle={Amanda Vithória Alves Freitas},
+    pdfauthor={Amanda Vithória Alves Freitas},
+    colorlinks=true,
+    linkcolor=black,
+    urlcolor=black,
+    citecolor=black,
+    bookmarksdepth=1 
+}
+
+% Desabilita numeração das sections
+\setcounter{secnumdepth}{0}
+
+% Formata os cabeçalhos de cada section e coloca uma linha em baixo
+\titleformat{\section}
+{\Large\bfseries}
+{}
+{0em}
+{}
+[\titlerule\vspace{0.5ex}]
+
+% --- INÍCIO DO DOCUMENTO ---
+\begin{document}
+
+% --- CABEÇALHO ---
+% Substitua com suas informações pessoais
+\begin{center}
+    {\LARGE \textbf{Amanda Vithória Alves Freitas • UI/UX Design}}\\[0.1cm]
+    Registro, São Paulo \hspace{1mm} {\textbullet} \hspace{1mm} +55 13 99727-6945
+    \\[0.2cm] 
+    \href{mailto:amanda.fralve@gmail.com}{amanda.fralve@gmail.com}
+    \hspace{1mm}{\textbullet}\hspace{1mm}
+    \href{https://www.linkedin.com/in/amanda-fralve}{linkedin.com/in/amanda-fralve}
+    \hspace{1mm}{\textbullet}\hspace{1mm}
+    \href{https://github.com/amandafralve}{github.com/amandafralve}
+    \hspace{1mm}{\textbullet}\hspace{1mm}
+    \href{https://www.behance.net/amandafralve}{behance.net/amandafralve}
+\end{center}
+
+
+% --- SEÇÕES ---
+
+\section{OBJETIVO} 
+    % Declare o cargo ou área que você está buscando
+    Designer de Interfaces e Experiência do Usuário (UI/UX) com 
+    base técnica em Desenvolvimento de Software Multiplataforma.
+    Trabalho na criação de protótipos de alta fidelidade, 
+    fluxos intuitivos e sistemas visuais focados nas necessidades 
+    do usuário. Combino visão estratégica de Product Design com 
+    facilidade de comunicação técnica junto a equipes de 
+    desenvolvimento front-end, garantindo entregas consistentes e 
+    funcionais.
+
+
+% ------Habilidades
+
+\section{HABILIDADES}
+    % Mantenha esta seção concisa e use o máximo de palavras chaves
+    % que fazem sentido para a vaga que você deseja.
+    \begin{itemize}
+        \item \textbf{UI/UX \& Product Design:} Figma, Prototipagem de Alta Fidelidade, Wireframing, Design Systems, UX Research, Testes de Usabilidade, Arquitetura de Informação, User Flows, Personas, Identidade Visual \& Branding
+        \item \textbf{Conhecimento Técnico (Diferencial Front-End):} HTML5, CSS3, JavaScript, TypeScript, React.js, React Native, Next.js, Git \& GitHub
+        \item \textbf{Idiomas:} Português (Nativo), Inglês (\href{https://drive.google.com/file/d/1wQA662aiYXgXoeTkIuQ1UzJLbKcqJmrU/view}{TOEIC - B2})
+    \end{itemize}
+
+% ------Experiência
+\section{PROJETOS}
+    % Liste as suas experiência de trabalho ou acadêmicas, mais recente primeiro
+    \subsection*{\texorpdfstring{
+            \textbf{Galeria de Filmes - Node.js, Express.js, Sequelize  } \hfill \href{https://github.com/amandafralve/galeria-filmes-nodejs}{galeria-filmes-nodejs}
+        }{
+            Nome da Empresa -- Localização
+        }}  
+        \begin{itemize} 
+            % Foque em conquistas, não apenas na parte técnica - use o método STAR (Situação, Tarefa, Ação, Resultado)
+            \item Galeria de filmes inspirado
+            na plataforma de streaming MUBI, onde o usuário pode inserir no catálogo a 
+            imagem do filme, título, diretor, país e ano de lançamento.
+            
+        \end{itemize}
+    
+    \subsection*{\texorpdfstring{
+            \textbf{NitrusLeaf - Vitalliz  | React.js, Node.js, Express.js } 
+        }{
+            Nome da Empresa -- Localização
+        }}  
+        \begin{itemize} 
+            % Foque em conquistas, não apenas na parte técnica - use o método STAR (Situação, Tarefa, Ação, Resultado)
+            \item Projeto em equipe de Aplicação que identifica a deficiência de cobre e manganês na folha da mexerica através de Inteligência Artificial, onde desenvolvi a identidade da equipe, logo da aplicação e prototipagem de telas do app no Figma.
+            \item Foi apresentado na Casa Oracle, em São Paulo, onde recebeu 2° lugar dentre três projetos em 2024.
+        
+        
+        \end{itemize}
+% ------
+
+% ------Experiência Profissional
+
+\section{EXPERIÊNCIA }
+    % List work experience in reverse chronological order (most recent first)
+    \subsection*{\texorpdfstring{
+            \textbf{Câmara Municipal de Registro} \hfill Registro, SP (Presencial)
+        }{
+            Câmara Municipal de Registro -- Registro, SP (Presencial)
+        }}
+    \textit{Estagiário de TI  \hfill Mar 2026 - Dez 2026}
+        \begin{itemize} 
+            % Focus on achievements, not just duties - use STAR method (Situation, Task, Action, Result)
+            \item Reformulei a identidade visual criando posters, banner e artes para as sessões e audiências, e posts do site oficial.
+            \item Auxiliei na instalação e configuração de computadores, impressoras e infraestrutura.
+            \item Suporte técnico para funcionários, resolvendo problemas de hardware e software.
+        \end{itemize}
+% ------
+
+
+
+% ------Educação
+\section{EDUCAÇÃO}
+    % Formação mais recente primeiro
+    \subsection*{\texorpdfstring{
+            \textbf{Fatec - Faculdade de Tecnologia} \hfill Registro, SP (Presencial)
+        }{
+            Fatec Registro (Educação) -- Localização
+        }}
+    \textit{Desenvolvimento de Software Multiplataforma (Tecnólogo)\hfill Fev 2024 - Dez 2026}
+
+    \subsection*{\texorpdfstring{
+            \textbf{IFSP - Instituto Federal de São Paulo} \hfill Registro, SP (Presencial)
+        }{
+            IFSP Registro (Educação) -- Localização
+        }}
+    \textit{Técnico em Mecatrônica integrado ao Ensino Médio\hfill Fev 2019 - Dez 2021}
+
+\end{document}
